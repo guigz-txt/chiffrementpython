@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Clés générées
+*.pem
+
+# Fichiers de test générés
+message_chiffre.txt
+message_dechiffre.txt
+fichier_chiffre.bin
+fichier_dechiffre.bin
+fichier_test.bin
