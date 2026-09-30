@@ -1,27 +1,29 @@
-# TP Chiffrement en Python
+Q1: L’objectif du TP est d’utiliser Python pour mettre en œuvre différents mécanismes de chiffrement et de hachage, notamment SHA256, RSA et AES.
 
-## Q1
+Q2: SHA256 est une fonction de hachage qui transforme une donnée en une empreinte de taille fixe. Le résultat ne permet normalement pas de retrouver la donnée originale.
 
-Création d'un dépôt Git local avec `git init`, puis ajout des fichiers fournis dans le dépôt.
+Q3: RSA est un algorithme de cryptographie asymétrique utilisant une clé publique et une clé privée.
 
-## Q2
+Q4: AES est un algorithme de chiffrement symétrique utilisant une clé secrète pour chiffrer et déchiffrer les données.
 
-Les classes fournies sont :
+Q5: Le chiffrement symétrique est généralement plus rapide que le chiffrement asymétrique et convient au chiffrement de grandes quantités de données.
 
-- `HashGestion` pour le hachage SHA256.
-- `AesGestion` pour le chiffrement AES.
-- `RsaGestion` pour le chiffrement RSA.
+Q6: Le chiffrement hybride combine RSA et AES : RSA protège la clé AES et AES chiffre les données.
 
-## Q3. Différence entre hachage et chiffrement
+Q7: Le but du RSA est notamment de chiffrer des données et de réaliser des signatures numériques grâce à une paire de clés.
 
-Le hachage transforme une donnée en une empreinte de taille fixe. Il est conçu pour être à sens unique : on ne doit pas pouvoir retrouver directement la donnée originale à partir de l'empreinte.
+Q8: Le chiffrement permet de protéger la confidentialité des données afin qu'elles ne puissent pas être lues par une personne non autorisée.
 
-Le chiffrement transforme une donnée en une donnée chiffrée qui peut être retrouvée grâce à une clé de déchiffrement.
+Q9: RSA est un chiffrement asymétrique utilisant une clé publique pour chiffrer et une clé privée pour déchiffrer.
 
-## Q4. But du hachage
+Q10: Une autre famille de chiffrement est le chiffrement symétrique.
 
-Le hachage permet principalement de vérifier l'intégrité d'une donnée.
+Q11: AES est un exemple de chiffrement symétrique.
 
-Une modification du fichier ou du message entraîne normalement une empreinte différente.
+Q12: Le chiffrement symétrique sert à protéger des données avec une même clé secrète pour le chiffrement et le déchiffrement.
 
-Le hachage seul ne permet pas d'assurer la confidentialité du contenu.
+Q13: Le chiffrement symétrique est rapide et adapté au chiffrement de grandes quantités de données, mais la clé doit être partagée de manière sécurisée.
+
+Q14: Le chiffrement hybride utilise RSA pour chiffrer une clé AES, puis AES pour chiffrer les données. Cela combine la protection de RSA avec la rapidité d'AES.
+
+Travail réalisé: Les programmes RSA, AES et RSA + AES ont été réalisés, testés et commités sur le dépôt GitHub.
