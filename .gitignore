@@ -11,3 +11,7 @@ message_dechiffre.txt
 fichier_chiffre.bin
 fichier_dechiffre.bin
 fichier_test.bin
+clef_aes.bin
+fichier_test.txt
+fichier_chiffre_aes.bin
+fichier_dechiffre_aes.txt
